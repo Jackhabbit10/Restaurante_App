@@ -19,6 +19,10 @@ class Restaurant extends StatelessWidget {
             style: TextStyle(fontSize: 30, color: Colors.white),
           ),
           Text("0", style: TextStyle(fontSize: 100, color: Colors.white)),
+          Row(children: [
+            TextButton(onPressed: null, child: Text("Entrou", style: TextStyle(fontSize: 30, color: Colors.white))),
+            TextButton(onPressed: null, child: Text("Saiu",   style: TextStyle(fontSize: 30, color: Colors.white)))
+          ],),
         ],
       ),
     );
